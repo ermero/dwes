@@ -8,7 +8,7 @@ function conectarse(){
 function consultaSQL($mysql, $consulta){
 	$resultado=$mysql->query($consulta);
 	return $resultado;
-}
+}ee
 function desconectarse($mysql){
 	$mysql->close();
 }
